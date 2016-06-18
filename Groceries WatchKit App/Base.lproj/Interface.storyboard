@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="IFD-E8-9sZ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8083.2"/>
+    </dependencies>
+    <scenes>
+        <!--Groceries-->
+        <scene sceneID="Caa-rk-oSX">
+            <objects>
+                <controller title="Groceries" id="IFD-E8-9sZ" customClass="GroceryController" customModule="Groceries_WatchKit_Extension"/>
+            </objects>
+            <point key="canvasLocation" x="455" y="478"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.10588235294117647" green="0.60784313725490191" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+</document>

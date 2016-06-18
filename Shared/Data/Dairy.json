@@ -1,0 +1,37 @@
+[
+ {
+ "quantity": "3/4 cup",
+ "name": "mozzarella cheese",
+ "type": "Dairy"
+ },
+ {
+ "quantity": "2 tbsp",
+ "name": "melted butter",
+ "type": "Dairy"
+ },
+ {
+ "quantity": "3",
+ "name": "eggs",
+ "type": "Dairy"
+ },
+ {
+ "quantity": "300ml",
+ "name": "milk",
+ "type": "Dairy"
+ },
+ {
+ "quantity": "1 cup",
+ "name": "cheddar cheese",
+ "type": "Dairy"
+ },
+ {
+ "quantity": "3",
+ "name": "baby bell",
+ "type": "Dairy"
+ },
+ {
+ "quantity": "1/4 cup",
+ "name": "buttermilk",
+ "type": "Dairy"
+ }
+ ]

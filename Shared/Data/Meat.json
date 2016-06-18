@@ -1,0 +1,32 @@
+[
+ {
+ "quantity": "1",
+ "name": " beef roast",
+ "type": "Meat"
+ },
+ {
+ "quantity": "3",
+ "name": "skinless, boneless chicken breasts",
+ "type": "Meat"
+ },
+ {
+ "quantity": "1",
+ "name": " filet mignon",
+ "type": "Meat"
+ },
+ {
+ "quantity": "4 breasts",
+ "name": " chicken breast",
+ "type": "Meat"
+ },
+ {
+ "quantity": "2.5 lb",
+ "name": " bacon",
+ "type": "Meat"
+ },
+ {
+ "quantity": "3",
+ "name": " pork chops",
+ "type": "Meat"
+ }
+ ]

@@ -1,0 +1,52 @@
+[
+  {
+    "quantity": "1 package",
+    "name": "brown gravy mix",
+    "type": "Baking"
+  },
+  {
+    "quantity": "1/2 tsp",
+    "name": "kosher salt",
+    "type": "Baking"
+  },
+  {
+    "quantity": "5 tsp",
+    "name": "yeast",
+    "type": "Baking"
+  },
+  {
+    "quantity": "2 tbsp",
+    "name": "sugar",
+    "type": "Baking"
+  },
+  {
+    "quantity": "2 tsp",
+    "name": "salt",
+    "type": "Baking"
+  },
+  {
+    "quantity": "4 tbsp",
+    "name": "vegetable oil",
+    "type": "Baking"
+  },
+  {
+    "quantity": "1 tsp",
+    "name": "cinnamon",
+    "type": "Baking"
+  },
+  {
+    "quantity": "3/4 cup",
+    "name": "shortening",
+    "type": "Baking"
+  },
+  {
+    "quantity": "1 1/2 cups",
+    "name": "sugar",
+    "type": "Baking"
+  },
+  {
+    "quantity": "2 1/2 cups",
+    "name": "flour",
+    "type": "Baking"
+  }
+]

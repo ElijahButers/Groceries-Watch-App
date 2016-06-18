@@ -1,0 +1,37 @@
+[
+ {
+ "quantity": "1/2 cup",
+ "name": "water",
+ "type": "Drinks"
+ },
+ {
+ "quantity": "1",
+ "name": "boiling water",
+ "type": "Drinks"
+ },
+ {
+ "quantity": "1",
+ "name": "diet coke",
+ "type": "Drinks"
+ },
+ {
+ "quantity": "1",
+ "name": "purple drink",
+ "type": "Drinks"
+ },
+ {
+ "quantity": "3",
+ "name": "apple juice",
+ "type": "Drinks"
+ },
+ {
+ "quantity": "1",
+ "name": "orange juice",
+ "type": "Drinks"
+ },
+ {
+ "quantity": "1 tbsp",
+ "name": "cooking wine",
+ "type": "Drinks"
+ }
+ ]

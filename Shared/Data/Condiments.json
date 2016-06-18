@@ -1,0 +1,32 @@
+[
+  {
+    "quantity": "1 package",
+    "name": "dried Italian salad dressing mix",
+    "type": "Condiments"
+  },
+  {
+    "quantity": "1 package",
+    "name": "dry ranch dressing mix",
+    "type": "Condiments"
+  },
+  {
+    "quantity": "1 1/2 tbsp",
+    "name": "olive oil",
+    "type": "Condiments"
+  },
+  {
+    "quantity": "1 tsp",
+    "name": "curry powder",
+    "type": "Condiments"
+  },
+  {
+    "quantity": "1 tsp",
+    "name": "salt",
+    "type": "Condiments"
+  },
+  {
+    "quantity": "3 tbsp",
+    "name": "vegetable oil",
+    "type": "Condiments"
+  }
+]

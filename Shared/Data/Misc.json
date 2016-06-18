@@ -1,0 +1,32 @@
+[
+  {
+    "quantity": "1 quart",
+    "name": "beef broth",
+    "type": "Misc"
+  },
+  {
+    "quantity": "1 cup",
+    "name": "dried green lentils",
+    "type": "Misc"
+  },
+  {
+    "quantity": "1/2 cup",
+    "name": "basmati rice",
+    "type": "Misc"
+  },
+  {
+    "quantity": "2 cups",
+    "name": "hot water",
+    "type": "Misc"
+  },
+  {
+    "quantity": "1/4 cup",
+    "name": "pizza sauce",
+    "type": "Misc"
+  },
+  {
+    "quantity": "6",
+    "name": "English muffins, toasted",
+    "type": "Misc"
+  }
+]
