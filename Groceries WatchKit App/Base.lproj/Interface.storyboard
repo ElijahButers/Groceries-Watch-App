@@ -12,7 +12,7 @@
                     <items>
                         <table alignment="left" id="Wy6-9J-s5C">
                             <items>
-                                <tableRow id="Ntf-25-1Va">
+                                <tableRow selectable="NO" id="Ntf-25-1Va">
                                     <group key="rootItem" width="1" alignment="left" id="l5a-1u-A9C">
                                         <items>
                                             <imageView alignment="left" verticalAlignment="center" image="meat" id="4jA-H3-Dsp"/>
@@ -20,6 +20,7 @@
                                                 <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
                                             </label>
                                         </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </group>
                                 </tableRow>
                                 <tableRow id="JW2-DN-swh">
