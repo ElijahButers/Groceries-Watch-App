@@ -13,7 +13,14 @@
                         <table alignment="left" id="Wy6-9J-s5C">
                             <items>
                                 <tableRow id="Ntf-25-1Va">
-                                    <group key="rootItem" width="1" alignment="left" id="l5a-1u-A9C"/>
+                                    <group key="rootItem" width="1" alignment="left" id="l5a-1u-A9C">
+                                        <items>
+                                            <imageView alignment="left" verticalAlignment="center" image="meat" id="4jA-H3-Dsp"/>
+                                            <label alignment="left" text="Label" textAlignment="center" id="s9s-mf-ab7">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                        </items>
+                                    </group>
                                 </tableRow>
                                 <tableRow id="JW2-DN-swh">
                                     <group key="rootItem" width="1" alignment="left" id="s93-zR-KzZ"/>
