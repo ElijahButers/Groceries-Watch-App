@@ -37,6 +37,10 @@
                                             </label>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="measurementLabel" destination="j77-Ku-7TX" id="iA1-Vs-yNY"/>
+                                        <outlet property="textLabel" destination="syk-vJ-0tc" id="TRt-f9-m44"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>

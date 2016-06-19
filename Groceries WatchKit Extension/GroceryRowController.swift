@@ -7,7 +7,10 @@
 //
 
 import UIKit
+import WatchKit
 
 class GroceryRowController: NSObject {
 
+    @IBOutlet var textLabel: WKInterfaceLabel!
+    @IBOutlet var measurementLabel: WKInterfaceLabel!
 }
