@@ -7,7 +7,10 @@
 //
 
 import UIKit
+import WatchKit
 
 class GroceryTypeRowController: NSObject {
 
+    @IBOutlet var image: WKInterfaceImage!
+    @IBOutlet var textLabel: WKInterfaceLabel!
 }
