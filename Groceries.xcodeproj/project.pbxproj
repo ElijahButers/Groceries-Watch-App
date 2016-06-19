@@ -41,6 +41,8 @@
 		29980AE81B4E2F1E0046BF9D /* IngredientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29980ADC1B4E2F1E0046BF9D /* IngredientType.swift */; };
 		29980AF41B4E2F1E0046BF9D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29980AE41B4E2F1E0046BF9D /* SwiftyJSON.swift */; };
 		29980AF81B4E30200046BF9D /* GroceryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29980AF51B4E30200046BF9D /* GroceryController.swift */; };
+		E26D29181D16ABD200BE9FF2 /* GroceryRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D29171D16ABD200BE9FF2 /* GroceryRowController.swift */; };
+		E26D291A1D16ABF500BE9FF2 /* GroceryTypeRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D29191D16ABF500BE9FF2 /* GroceryTypeRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,8 @@
 		29980ADC1B4E2F1E0046BF9D /* IngredientType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientType.swift; sourceTree = "<group>"; };
 		29980AE41B4E2F1E0046BF9D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		29980AF51B4E30200046BF9D /* GroceryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryController.swift; sourceTree = "<group>"; };
+		E26D29171D16ABD200BE9FF2 /* GroceryRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryRowController.swift; sourceTree = "<group>"; };
+		E26D29191D16ABF500BE9FF2 /* GroceryTypeRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryTypeRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +204,8 @@
 			children = (
 				29980AF51B4E30200046BF9D /* GroceryController.swift */,
 				298B2B051B40AA2E00FD605E /* ExtensionDelegate.swift */,
+				E26D29171D16ABD200BE9FF2 /* GroceryRowController.swift */,
+				E26D29191D16ABF500BE9FF2 /* GroceryTypeRowController.swift */,
 				298B2B091B40AA2E00FD605E /* Assets.xcassets */,
 				298B2B0B1B40AA2E00FD605E /* Info.plist */,
 				298B2B011B40AA2E00FD605E /* Supporting Files */,
@@ -401,10 +407,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26D291A1D16ABF500BE9FF2 /* GroceryTypeRowController.swift in Sources */,
 				29980AE61B4E2F1E0046BF9D /* Ingredient.swift in Sources */,
 				298B2B061B40AA2E00FD605E /* ExtensionDelegate.swift in Sources */,
 				29980AF41B4E2F1E0046BF9D /* SwiftyJSON.swift in Sources */,
 				29980AF81B4E30200046BF9D /* GroceryController.swift in Sources */,
+				E26D29181D16ABD200BE9FF2 /* GroceryRowController.swift in Sources */,
 				29980AE81B4E2F1E0046BF9D /* IngredientType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
