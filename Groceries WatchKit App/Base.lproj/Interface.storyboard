@@ -24,7 +24,12 @@
                                     </group>
                                 </tableRow>
                                 <tableRow id="JW2-DN-swh">
-                                    <group key="rootItem" width="1" alignment="left" id="s93-zR-KzZ"/>
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="s93-zR-KzZ">
+                                        <items>
+                                            <label alignment="left" text="Label" id="syk-vJ-0tc"/>
+                                            <label alignment="left" text="Label" id="j77-Ku-7TX"/>
+                                        </items>
+                                    </group>
                                 </tableRow>
                             </items>
                         </table>
