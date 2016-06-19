@@ -23,7 +23,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </group>
                                 </tableRow>
-                                <tableRow identifier="Groc" id="JW2-DN-swh" customClass="GroceryRowController" customModule="Groceries_WatchKit_Extension">
+                                <tableRow identifier="GroceryRow" id="JW2-DN-swh" customClass="GroceryRowController" customModule="Groceries_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="s93-zR-KzZ">
                                         <items>
                                             <label alignment="left" text="Label" numberOfLines="0" id="syk-vJ-0tc"/>
