@@ -37,6 +37,19 @@ class GroceryController: WKInterfaceController {
         addGroceryAisle(name, items: baking)
     }
     
+    override func willActivate() {
+        super.willActivate()
+        
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
+            var groceries = [(name: String, items: [Ingredient])]()
+            for file in self.groceryFiles {
+                if file != self.groceryFiles.first {
+                    groceries.append((file, self.loadIngredientsFile(file)))
+                }
+            }
+        }
+    }
+    
     func loadIngredientsFile(file: String) -> [Ingredient] {
         
         let path = NSBundle.mainBundle().pathForResource(file, ofType: "json")!
