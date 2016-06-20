@@ -35,4 +35,15 @@ class GroceryController: WKInterfaceController {
         return Ingredient.fromJSON(json)
     }
   
+    func addGroceryAisle(name: String, items: [Ingredient]) {
+        
+        let rows = table.numberOfRows
+        
+        let headerIndex = NSIndexSet(index: rows)
+        table.insertRowsAtIndexes(headerIndex, withRowType: "GroceryTypeRow")
+        let itemRows = NSIndexSet(indexesInRange: NSRange(location: rows + 1, length: items.count))
+        table.insertRowsAtIndexes(itemRows, withRowType: "GroceryRow")
+        
+    }
+
 }
