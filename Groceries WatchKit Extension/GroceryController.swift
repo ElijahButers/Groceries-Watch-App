@@ -25,6 +25,8 @@ import WatchKit
 
 class GroceryController: WKInterfaceController {
 
+    @IBOutlet var table: WKInterfaceTable!
+    
     func loadIngredientsFile(file: String) -> [Ingredient] {
         
         let path = NSBundle.mainBundle().pathForResource(file, ofType: "json")!
