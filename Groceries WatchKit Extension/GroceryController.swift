@@ -27,6 +27,14 @@ class GroceryController: WKInterfaceController {
 
     @IBOutlet var table: WKInterfaceTable!
     
+    override func awakeWithContext(context: AnyObject?) {
+        super.awakeWithContext(context)
+        
+        let name = "Baking"
+        let baking = loadIngredientsFile(name)
+        addGroceryAisle(name, items: baking)
+    }
+    
     func loadIngredientsFile(file: String) -> [Ingredient] {
         
         let path = NSBundle.mainBundle().pathForResource(file, ofType: "json")!
