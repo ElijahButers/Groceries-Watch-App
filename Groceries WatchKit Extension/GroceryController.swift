@@ -27,6 +27,8 @@ class GroceryController: WKInterfaceController {
 
     @IBOutlet var table: WKInterfaceTable!
     
+    let groceryFiles = ["Baking", "Condiments", "Dairy", "Drinks", "Meat", "Misc", "Produce"]
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
