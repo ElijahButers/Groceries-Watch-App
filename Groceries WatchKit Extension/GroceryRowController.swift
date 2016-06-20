@@ -33,4 +33,22 @@ class GroceryRowController: NSObject {
     private var strikethroughCellTextAttributes: [String: AnyObject] {
         return [NSFontAttributeName: UIFont.systemFontOfSize(16), NSForegroundColorAttributeName: UIColor.lightGrayColor(), NSStrikethroughStyleAttributeName: NSUnderlineStyle.StyleSingle.rawValue]
     }
+    
+    func configureController() {
+        
+        guard let ingredient = ingredient else {
+            return
+        }
+        
+        let attributes: [String: AnyObject]
+        if strikethrough {
+            attributes = strikethroughCellTextAttributes
+        } else {
+            attributes = cellTextAttributes
+        }
+        
+        let attributedText = NSAttributedString(string: ingredient.name.capitalizedString, attributes: attributes)
+        textLabel.setAttributedText(attributedText)
+        measurementLabel.setText(ingredient.formattedQuantity)
+    }
 }
