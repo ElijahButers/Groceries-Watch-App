@@ -14,6 +14,18 @@ class GroceryRowController: NSObject {
     @IBOutlet var textLabel: WKInterfaceLabel!
     @IBOutlet var measurementLabel: WKInterfaceLabel!
     
+    var ingredient: Ingredient? {
+        didSet {
+            //
+        }
+    }
+    
+    var strikethrough = false {
+        didSet {
+            //
+        }
+    }
+    
     private var cellTextAttributes: [String: AnyObject] {
         return [NSFontAttributeName: UIFont.systemFontOfSize(16), NSForegroundColorAttributeName: UIColor.whiteColor()]
     }
