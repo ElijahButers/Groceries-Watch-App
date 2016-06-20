@@ -32,9 +32,10 @@ class GroceryController: WKInterfaceController {
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-        let name = "Baking"
-        let baking = loadIngredientsFile(name)
-        addGroceryAisle(name, items: baking)
+        for name in groceryFiles {
+            let ingredients = loadIngredientsFile(name)
+            addGroceryAisle(name, items: ingredients)
+        }
     }
     
     func loadIngredientsFile(file: String) -> [Ingredient] {
