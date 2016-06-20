@@ -44,6 +44,19 @@ class GroceryController: WKInterfaceController {
         let itemRows = NSIndexSet(indexesInRange: NSRange(location: rows + 1, length: items.count))
         table.insertRowsAtIndexes(itemRows, withRowType: "GroceryRow")
         
+        for i in rows..<table.numberOfRows {
+            let row = table.rowControllerAtIndex(i)
+            
+            if let row = row as? GroceryTypeRowController {
+                row.textLabel.setText(name)
+                row.image.setImageNamed(name.lowercaseString)
+            } else if let row = row as? GroceryRowController {
+                
+                let item = items[i - rows - 1]
+                row.textLabel.setText(item.name.capitalizedString)
+                row.measurementLabel.setText(item.formattedQuantity)
+            }
+        }
     }
 
 }
