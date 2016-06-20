@@ -16,13 +16,13 @@ class GroceryRowController: NSObject {
     
     var ingredient: Ingredient? {
         didSet {
-            //
+            configureController()
         }
     }
     
     var strikethrough = false {
         didSet {
-            //
+            configureController()
         }
     }
     
