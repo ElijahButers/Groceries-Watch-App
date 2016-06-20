@@ -47,6 +47,11 @@ class GroceryController: WKInterfaceController {
                     groceries.append((file, self.loadIngredientsFile(file)))
                 }
             }
+            dispatch_async(dispatch_get_main_queue(), {
+                for grocery in groceries {
+                    self.addGroceryAisle(grocery.name, items: grocery.items)
+                }
+            })
         }
     }
     
