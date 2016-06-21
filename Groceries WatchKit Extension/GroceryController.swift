@@ -80,9 +80,7 @@ class GroceryController: WKInterfaceController {
                 row.image.setImageNamed(name.lowercaseString)
             } else if let row = row as? GroceryRowController {
                 
-                let item = items[i - rows - 1]
-                row.textLabel.setText(item.name.capitalizedString)
-                row.measurementLabel.setText(item.formattedQuantity)
+                row.ingredient = items[i - rows - 1]
             }
         }
     }
