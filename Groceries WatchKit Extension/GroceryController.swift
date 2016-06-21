@@ -92,4 +92,15 @@ class GroceryController: WKInterfaceController {
         }
     }
 
+    @IBAction func onRemovePurchased() {
+        
+        let itemsToRemove = NSMutableIndexSet()
+        for i in 0...table.numberOfRows {
+            
+            if let row = table.rowControllerAtIndex(i) as? GroceryRowController where row.strikethrough {
+                itemsToRemove.addIndex(i)
+            }
+        }
+        table.removeRowsAtIndexes(itemsToRemove)
+    }
 }

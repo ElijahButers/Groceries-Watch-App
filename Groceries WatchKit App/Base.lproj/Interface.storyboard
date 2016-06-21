@@ -47,7 +47,11 @@
                     </items>
                     <menu key="menu" id="zBf-oI-FbB">
                         <items>
-                            <menuItem title="Purchased" image="clear-purchased" id="FE8-fh-07d"/>
+                            <menuItem title="Purchased" image="clear-purchased" id="FE8-fh-07d">
+                                <connections>
+                                    <action selector="onRemovePurchased" destination="IFD-E8-9sZ" id="t08-wq-0K0"/>
+                                </connections>
+                            </menuItem>
                         </items>
                     </menu>
                     <connections>
