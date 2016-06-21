@@ -45,6 +45,11 @@
                             </items>
                         </table>
                     </items>
+                    <menu key="menu" id="zBf-oI-FbB">
+                        <items>
+                            <menuItem title="Menu Item" id="FE8-fh-07d"/>
+                        </items>
+                    </menu>
                     <connections>
                         <outlet property="table" destination="Wy6-9J-s5C" id="Ni7-xp-gfU"/>
                     </connections>
