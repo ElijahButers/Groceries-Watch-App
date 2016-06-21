@@ -47,7 +47,7 @@
                     </items>
                     <menu key="menu" id="zBf-oI-FbB">
                         <items>
-                            <menuItem title="Menu Item" id="FE8-fh-07d"/>
+                            <menuItem title="Purchased" image="clear-purchased" id="FE8-fh-07d"/>
                         </items>
                     </menu>
                     <connections>
