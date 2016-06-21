@@ -55,6 +55,13 @@ class GroceryController: WKInterfaceController {
         }
     }
     
+    override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
+        
+        if let row = table.rowControllerAtIndex(rowIndex) as? GroceryRowController {
+            row.strikethrough = !row.strikethrough
+        }
+    }
+    
     func loadIngredientsFile(file: String) -> [Ingredient] {
         
         let path = NSBundle.mainBundle().pathForResource(file, ofType: "json")!
